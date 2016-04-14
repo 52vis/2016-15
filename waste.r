@@ -112,9 +112,12 @@ gg <- gg + geom_point(dat=sites, aes(x=longitude, y=latitude, fill=site.rating),
 gg <- gg + scale_fill_manual(name="", values=c("#00a0b0", "#edc951", "#6a4a3c", "#eb6841"))
 gg <- gg + coord_proj(us_laea_proj)
 gg <- gg + guides(fill=guide_legend(override.aes=list(alpha=1, stroke=0.2, color="#2b2b2b", size=4)))
+gg <- gg + labs(title="Waste Lands: America's Forgotten Nuclear Legacy",
+                 caption="Data from the WSJ")
 gg <- gg + theme_map()
 gg <- gg + theme(legend.position="bottom")
 gg <- gg + theme(legend.direction="vertical")
 gg <- gg + theme(legend.key=element_blank())
+gg <- gg + theme(plot.title=element_text(size=18, face="bold", hjust=0.5))
 gg
 
