@@ -79,7 +79,7 @@ glimpse(sites)
 #' detail pages on the WSJ site.
 
 #' I want to use my `albersusa` mutated U.S. shapefile for this (NOTE: I'm moving
-#' `albersus` into one of the rOpenSci pacakges soon vs publishing it standalone to CRAN)
+#' `albersusa` into one of the rOpenSci pacakges soon vs publishing it standalone to CRAN)
 #' so I need to mutate the Alaska points (there are no Hawaii points).
 #' This step is *not necessary* unless you plan on displaying points on this
 #' mutated map. I also realized I need to provide a mutated projection translation
