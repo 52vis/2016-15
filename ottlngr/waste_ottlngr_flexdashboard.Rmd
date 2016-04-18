@@ -2,7 +2,7 @@
 title: "Waste Lands - America's forgotten nuclear legacy"
 output: 
   flexdashboard::flex_dashboard:
-    source_code: "https://github.com"
+    source_code: "https://github.com/ottlngr/2016-15/blob/ottlngr/ottlngr/waste_ottlngr_flexdashboard.Rmd"
     theme: journal
     orientation: columns
     vertical_layout: fill

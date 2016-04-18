@@ -45,14 +45,16 @@ To really make use of `flexdashboard` I had to come with some more. What you don
 
 Another `leaflet`graph finishes my dashboard: Some sites are clearly related to an University. You find them by looking for certain keywords in the site's name or address. I don't know how to think about potentially contaminated areas on campus...
 
-**The dashboard is published on RPubs [here](www.rpubs.com).** Below is a screenshot:
+**The dashboard is published on RPubs [here](http://rpubs.com/ottlngr/172202).** Below is a screenshot:
 
 ![](waste_screenshot.png)
 
 ## Concluding words
 
-`flexdashboard` is a super cool thing! It looks great, is easy to use and works with quite anything you can get out of R. There are more features that I have not used for my dashboard (like multiple pages) but I changed the theme, added a *social* button and a button that should either open the embedded source code or a link to the source code - unluckily that does not work so far...
+`flexdashboard` is a super cool thing! It looks great, is easy to use and works with quite anything you can get out of R. There are more features that I have not used for my dashboard (like multiple pages) but I changed the theme, added a *social* button and a button that should either open the embedded source code or a link to the source code - unluckily that does not work so far... [^1]
 
 `plotly` is great and I think I'll use it more often. But maybe more in a `ggplotly()` way than in a `plot_ly` way.
 
 `leaflet` was fun to use, but I think in most cases a non-interactive map does the job as well. I guess it's more useful when working with city or street maps with more details.
+
+[^1]: Source code can be found here: [](https://github.com/ottlngr/2016-15/blob/ottlngr/ottlngr/waste_ottlngr_flexdashboard.Rmd)
